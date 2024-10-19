@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.75); /* Slight transparency */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    height: 350px;
+    text-align: center;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.counter {
+    font-size: 0.9em;
+    color: #333;
+}
+
+.warning {
+    color: red;
+    font-size: 0.9em;
+    visibility: hidden;
+}
+
+.warning.visible {
+    visibility: visible;
+}
